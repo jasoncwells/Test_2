@@ -15,6 +15,10 @@ print myage
 print mylist
 listlength = len(mylist)
 print listlength
+stringlength = len(myvar)
+print stringlength
+numlength = len(myage)
+print numlength
 # # Find something on the page using css selectors
 # root = lxml.html.fromstring(html)
 # root.cssselect("div[align='left']")
