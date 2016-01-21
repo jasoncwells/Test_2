@@ -6,7 +6,11 @@
 #
 # # Read in a page
 # html = scraperwiki.scrape("http://foo.com")
-#
+myvar = 'What is happening today'
+myage = 46
+mylist = ['how','now','brown','cow'
+mynumlist = [1, 2, 3, 4, 5]
+listlength = len(mylist)
 # # Find something on the page using css selectors
 # root = lxml.html.fromstring(html)
 # root.cssselect("div[align='left']")
